@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/kavoon');
+
+                
+.container{
+    height: 100vh;
+    width: 100%;
+    background: url(Capture.PNG);
+    background-size: cover;
+    background-position: center;
+    font-family: 'kavoon' , sans-serif;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px; 
+}
+.title{
+    font-size: 50px;
+}
+
+.navbar.title{
+    color: #000000;
+    font-size: 67px;
+    font-weight: 600;
+}
+
+span{
+    color: #ff0000;
+}
+
+.navbar p{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu li {
+    list-style: none;
+    display:inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:#000000;  
+    font-size: 27px;
+    font-weight: 400;
+    margin-left: 45px;
+   
+}
+hr{
+    height: 50px;
+    width: 25%;
+    margin: -45px 0;
+    background: linear-gradient(to right, #ffff00 0%, #ff3399 100%) ;
+    border: none;
+    border-radius: 50PX;
+    transition: .5 ease-in-out;
+    margin-left: 10px;
+}
+
+.two:hover ~ hr{
+    margin-left: 27%;
+}
+.three:hover ~ hr{
+    margin-left: 54%;
+}
+.four:hover ~ hr{
+    margin-left: 81%;
+}
+
+/* home */
+
+.home{
+    height: 400px;
+    padding: 120px;
+}
+
+.title-2{
+    font-size: 60px;
+    font-weight: 600  ;
+}
+
+/* button */
+.but{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 200px;
+    font-family: kavoon, sans-serif;
+    background-color: #FA5B5B;
+    border: none;
+    border-radius: 50px;
+}
+
+.but:hover{
+    box-shadow: 4px 4px 10px #ff0000;
+}
+
+.qoute{
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
